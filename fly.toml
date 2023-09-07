@@ -10,7 +10,6 @@ primary_region = "mia"
   builder = "heroku/buildpacks:20"
 
 [env]
-  DATABASE_URL = "postgresql+psycopg2://gilhooleyp:Ellie123%3F%21%3F%21@warbler-app.internal:5432/warbler-app-db"
   NODE_ENV = "production"
   PORT = "8080"
 
